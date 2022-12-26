@@ -1,0 +1,142 @@
+body {
+  background-image: url("https://th.bing.com/th/id/OIP.oVCcZNPmh45ynyWMfuq8aAHaEo?w=286&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7");
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+  background-size: cover;
+}
+.nav-box{
+    display: flex;
+    width: auto;
+    padding: 5px 3%;
+    align-items: center;
+    justify-content: space-between;
+    background-color: skyblue;
+}
+.home   {
+  border-radius: 1000px;
+  background-color: black;
+}
+
+.service{
+  border-radius: 1000px;
+  background-color: black;
+}
+.meals{
+  border-radius: 1000px;
+  background-color: black;
+}
+.holiday{
+  border-radius: 1000px;
+  background-color: black;
+}
+.contactus{
+  border-radius: 1000px;
+  background-color: black;
+}
+.nav-box>ul{
+    display: grid;
+    list-style: none;
+    grid-column-gap: 8px;
+    grid-template-columns: repeat(6, auto);
+}
+.image1{
+  border-radius: 50%;
+}
+.nav-box li{
+    display: block;
+    text-transform: uppercase;
+}
+
+.nav-box a{
+    color: goldenrod;
+    padding: 5px 8px;
+    text-decoration: none;
+}
+
+.nav-box a:hover{
+    color: #fd2c87;
+    font-weight: 600;
+}
+
+.nav-box a:hover{
+    border-bottom: 2px solid #fd2c87;
+}
+.div12{
+    float: right;
+}
+.form{
+    margin-left: 200px;
+    margin-top: 100px;
+    /* display: flex; */
+    width: 320px;
+    padding: 40px;
+    align-items: center;
+    /* flex-direction: column; */
+    background-color: rgba(256, 256, 256, 0.5);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.7);
+}
+
+.form > img{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;  /*for circle*/
+}
+
+.form>input{
+    border: 0;
+    width: 90%;
+    outline: 0;
+    padding: 13px;
+    margin: 5px 0;
+    font-size: 14px;
+    border-radius: 10px;
+}
+
+.form>.btn{
+    width: 150px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 1000px;
+    color: rgb(256,256,256);
+    text-transform: uppercase;
+    background-color: rgb(23, 165, 137);
+}
+
+.form>.btn:hover{
+    background-color: rgb(20, 143, 119);
+}
+
+
+.column {
+  float: left;
+  width: 20%;
+  margin-bottom: 4px;
+  padding: 0 2px;
+ background: white;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.container {
+  padding: 0 16px;
+  background: pink;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
